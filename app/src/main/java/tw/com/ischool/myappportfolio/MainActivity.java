@@ -32,13 +32,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    View.OnClickListener showApp2 = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-
-        }
-    };
-
     protected void showApp(View v) {
         Button btn = (Button)v ;
         String msg = String.format("This button will launch my %s app!", btn.getText());
